@@ -1,10 +1,10 @@
 /* eslint-disable no-console */
-import express from 'express';
-import compression from 'compression';
-import path from 'path';
-import http from 'http';
-import cookieParser from 'cookie-parser';
-import bodyParser from 'body-parser';
+const express = require('express');
+const compression = require('compression');
+const path = require('path');
+const http = require('http');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
 
 const port = 8081;
 const app = express();
