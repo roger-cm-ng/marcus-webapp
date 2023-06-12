@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link href="../css/main.css" rel="stylesheet" type="text/css">
+        <link href="../css/shapes.css" rel="stylesheet" type="text/css">        
+    </head>
+    <body>
+        <div class="header">
+            <img src="../assets/logo.png" width="100px;">
+            <h1 class="logo">Two Football</h1>
+            <a class="rectangle" href="/">Home</a>
+            <a class="rect2 rectangle" href="/article1">Article</a> 
+            <a class="rectangle" href="/contact">Contact</a>
+            <a class="rectangle" href="/shop">Shop</a>
+        </div>
+        <div class="bottomrectangle">
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Region</label>
+            <select id="country" name="country">
+            <option value="australia">Oceania</option>
+            <option value="Europe">NA</option>
+            <option value="usa">SA</option>
+            <option value="Asia">Eurasia</option>
+            <option value="Asia">Africa</option>
+            </select>
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <a href="/thanks" class="submit">Submit</a>
+            </form>
+        </div>
+        <script src="../js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.rectangle {
+    border: 5px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    background-color: rgb(255, 216, 168);
+    padding: 10px 20px 1px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.rect2:hover {
+    background-color: beige;
+}
+
+.rectangle:hover {
+    background-color: beige;
+    border: 5px solid grey;
+}
+
+.bottomrectangle {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
