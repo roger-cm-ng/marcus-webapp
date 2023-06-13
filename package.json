@@ -2,8 +2,9 @@
   "name": "webapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel ./src/html/*.html ./src/html/players/*.html",
+    "build": "parcel build ./src/html/*.html ./src/html/players/*.html",
     "nodemon": "nodemon --exec \"node ./src/js/server/index.js\" "
   },
   "author": "",
@@ -16,5 +17,8 @@
     "http": "^0.0.1-security",
     "nodemon": "^2.0.22",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.2"
   }
 }

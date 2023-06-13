@@ -11,7 +11,7 @@ const app = express();
 const server = http.Server(app);
 
 app.use(compression());
-app.use(express.static(path.join(__dirname, '..', '..')));
+app.use(express.static(path.join(__dirname, '..', '..' , '..', 'dist')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -22,7 +22,7 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '..', '..', 'html', 'index.html'));
 });
 app.get('/article1', function(req, res) {
-  res.sendFile(path.join(__dirname, '..', '..', 'html', 'players', 'article1.html'));
+  res.sendFile(path.join(__dirname, '..', '..', 'html', 'article1.html'));
 });
 app.get('/contact', function(req, res) {
   res.sendFile(path.join(__dirname, '..', '..', 'html', 'contact.html'));
