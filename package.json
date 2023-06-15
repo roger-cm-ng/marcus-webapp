@@ -9,5 +9,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.9.2"
+  },
+  "dependencies": {
+    "lit-html": "^2.7.4"
   }
 }
