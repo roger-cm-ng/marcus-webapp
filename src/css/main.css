@@ -18,7 +18,7 @@ html {
     background-color: rgb(255, 232, 202);
 }
 
-h2 {
+.top11 h2 {
     text-decoration: underline;
 }
 
@@ -55,10 +55,10 @@ h2 {
     padding-top: 20px;
 }
 
-input[type="text"], select, textarea {
+.container input[type="text"], .container select, .container textarea {
     width: 100%;
     padding: 12px;
-    border: 5px solid #ccc;
+    border: 5px solid rgb(232, 171, 96);
     border-radius: 4px;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -67,7 +67,7 @@ input[type="text"], select, textarea {
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: rgb(255, 213, 161);
     padding: 20px;
 }
 
@@ -78,17 +78,17 @@ input[type="text"], select, textarea {
     font-size: 50px;
 }
 
-.submit {
+.container .submit {
     text-decoration: none;
     font-weight: bold;
-    border: 5px solid #ccc;
+    border: 5px solid rgb(232, 171, 96);
     color: black;
     padding: 5 10 5 10;
     border-radius: 5px;
 }
 
-.submit:hover {
-    border: 5px solid rgb(175, 175, 175);
+.container .submit:hover {
+    border: 5px solid rgb(172, 107, 28);
 }
 
 .back {
@@ -111,17 +111,17 @@ input[type="text"], select, textarea {
     text-decoration: underline;
 }
 
-.tee, .ball {
+.tee, .ball, .sockmerch, .shinpadmerch {
     border: 4px solid #ccc;
     width: 30%;
-    background-color: azure;
+    background-color: #f0ffff;
 }
 
-.whitetee, .navytee {
+.whitetee, .navytee, .sockmerch, .shinpadmerch {
     margin-left: 50px;
 }
   
-.tee:hover {
+.tee:hover, .ball:hover, .sockmerch:hover, .shinpadmerch:hover {
     border: 4px solid #777;
 }
 
@@ -131,13 +131,46 @@ input[type="text"], select, textarea {
     margin-left: 75px;
 }
 
+.sockmerch img, .shinpadmerch img {
+    width: 250px;
+    height: 300px;
+    margin-left: 75px;
+}
+
 .ball img {
     width: 250px;
     height: 250px;
 }
   
-.whiteteetext, .blackteetext, .navyteetext {
+.whiteteetext, .blackteetext, .navyteetext, .logoballtext, .sockmerchtext, .shinpadtext {
     padding: 15px;
+    text-align: center;
+}
+
+.ball {
+    text-align: center;
+}
+
+.sockmerch {
+    margin-left: 50px;
+}
+
+.ball img {
+    margin-top: 50px;
+}
+
+.txtball {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.sockmerchtxt {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.shinpadtxt {
+    margin-top: 90px;
     text-align: center;
 }
   
@@ -148,11 +181,15 @@ input[type="text"], select, textarea {
     padding-top: 20px;
 }
 
-.tee .addtocart {
+.tee .addtocart, .ball .addtocart, .sockmerch .addtocart, .shinpadmerch .addtocart {
     visibility: hidden;
 }
 
-.tee:hover .addtocart {
+.ball .addtocart {
+    margin-top: -5px;
+}
+
+.tee:hover .addtocart, .ball:hover .addtocart, .sockmerch:hover .addtocart, .shinpadmerch:hover .addtocart {
     visibility: visible;
 }
 
@@ -162,6 +199,200 @@ input[type="text"], select, textarea {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.googletranslate {
+    width: 160px;
+    margin-right: 10px;
+}
+
+.blackmerchpage {
+    border: 5px solid black;
+    margin-top: 10px;
+    padding-right: 50px;
+    background-color: azure;
+}
+
+.blackmerchinfo, .whitemerchinfo {
+    display: flex;
+}
+
+.blackmerchinfotxt {
+    margin-left: 50px;
+}
+
+.merchwhite {
+    display: none;
+}
+
+.nametshirt {
+    text-decoration: underline;
+}
+
+.stars {
+    display: flex;
+    margin-top: -30px;
+}
+
+.firststar {
+    display: flex;
+}
+
+.firststar:hover {
+    color: rgb(255, 195, 29);
+}
+
+.info {
+    width: 600px;
+    height: 510px;
+    background-color: grey;
+    border: 8px solid rgb(255, 206, 142)
+}
+
+.sizes {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(179, 179, 179);
+    padding: 12px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.number {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(179, 179, 179);
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.size, .sizes, .colour, .littleimg, .numofitms, .number, .cartadd {
+    margin-left: 20px;
+}
+
+.cartadd {
+    width: 238px;
+    height: 50px;
+    background-color: rgb(179, 179, 179);
+    border: 5px solid #ccc;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.cartadd:hover, .sizes:hover, .clickme:hover, .clickme-:hover, .inc:hover {
+    border: 5px solid #ffffff;
+    background-color: #ccc;
+}
+
+.size {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.numofitms {
+    margin-top: 0px;
+}
+
+.littleimg {
+    border: 2px solid black;
+    background-color: azure;
+    padding: 5px;
+}
+
+.increase {
+    display: flex;
+}
+
+.inc {
+    width: 100px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(179, 179, 179);
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border: 5px solid #ccc;
+}
+
+.clickme- {
+    width: 49px;
+    height: 49px;
+    margin-top: 6.5px;
+    margin-left: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(179, 179, 179);
+}
+
+.clickme {
+    width: 49px;
+    height: 49px;
+    margin-top: 6.5px;
+    margin-left: 0px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(179, 179, 179);
+}
+
+.footballmerchpage {
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 50px;
+}
+  
+.dropdown {
+    position: absolute;
+    display: none;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 800px;
+    
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.bestsellers {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
 
 /* .topnav {
     overflow: hidden;
@@ -199,17 +430,40 @@ input[type="text"], select, textarea {
 } */
 
 @media only screen and (max-width: 800px) {
-    .header {
-        display: inline-block !important;
+    .representation {
+        width: 70px;
     }
 
-    a {
-        display: inline-block;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0px !important;
-        margin-bottom: 10px;
-        text-align: center;
+    .buttons .rectangle {
+        display: none;
+    }
+
+    .buttons .dropdown {
+        display: block !important;
     }
 }
-  
+
+.MaignanArticle{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.maignanimg {
+    width: 500px;
+    border: 5px solid black;
+    height: 340px;
+}
+
+.maignantitle {
+    text-decoration: underline;
+}
+
+.moreinfo {
+    margin-top: -14px;
+    margin-left: 530px;
+}
+
+.maignan {
+    margin-top: 20px;
+    display: flex;
+}

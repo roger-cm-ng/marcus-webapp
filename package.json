@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel ./src/html/*.html ./src/html/players/*.html"
+    "start": "parcel ./src/html/*.html ./src/html/products/*.html ./src/html/players/*.html"
   },
   "author": "",
   "license": "ISC",

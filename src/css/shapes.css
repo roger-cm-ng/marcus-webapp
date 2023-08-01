@@ -14,7 +14,7 @@
     font-weight: bold;
     height: 50px;
     background-color: rgb(255, 216, 168);
-    padding: 10px 20px 1px 20px;
+    padding: 10px 20px 10px 20px;
     margin-right: 20px;
     text-decoration: none;
     color: black;
@@ -22,6 +22,10 @@
 
 .rect2:hover {
     background-color: beige;
+}
+
+.seperater {
+    margin-top: 20px;
 }
 
 .rectangle:hover {
@@ -33,4 +37,8 @@
     height: 5px;
     width: 100%;
     background-color: black;
+}
+
+.cartshop {
+    margin-left: 320px;
 }
