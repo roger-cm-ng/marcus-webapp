@@ -467,3 +467,31 @@ html {
     margin-top: 20px;
     display: flex;
 }
+
+.add-to-cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    width: 200px;
+    border: #222 solid 2px;
+    margin: 20px;
+}
+
+.cart-item-text {
+    text-align: center;
+}
+
+.cart-item-img {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-item-img img {
+    width: 80%;
+}
+
+.cart-item-price {
+    text-align: center;
+}
