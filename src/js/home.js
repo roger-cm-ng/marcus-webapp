@@ -13,7 +13,7 @@ class Home {
                     <a class="tee" href="/shop-item.html?id=${item.id}">
                         <h3 class="blackteetext">${item.label}</h3>
                         <img src="${item.img}" class="blackmerch">
-                        <h3 class="blackteetext">$${item.price}</h3>
+                        <h3 class="blackteetext">$${item.price.toFixed(2)}</h3>
                         <h3 class="addtocart">Add to cart?</h3>
                     </a>
                 `)
