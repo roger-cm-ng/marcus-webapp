@@ -104,6 +104,17 @@ export class CartData {
         return items.find(i => i.id === id);
     }
 
+    getSome (ids) {
+        const items = JSON.parse(storageFunction.fromSessionStorage('cart'));
+        const some = [];
+
+        ids.forEach(i => {
+            some.push(items.find(j => String(i) === j.id))
+        });
+
+        return some;
+    }
+
     insert (item) {
         const items = [...JSON.parse(storageFunction.fromSessionStorage('cart'))];
         
