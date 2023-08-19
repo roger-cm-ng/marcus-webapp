@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=REM');
+
+.html {
+    font-family: 'REM';
+}
+
 .title {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -235,6 +241,12 @@ html {
 
 .firststar {
     display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.fa-star {
+    margin-right: 3px;
 }
 
 .firststar:hover {
@@ -460,10 +472,151 @@ html {
 
 .moreinfo {
     margin-top: -14px;
-    margin-left: 530px;
+    margin-left: 18px;
 }
 
 .maignan {
     margin-top: 20px;
     display: flex;
+}
+
+.names {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.stats {
+    margin-top: 40px;
+}
+
+.top2 {
+    display: flex;
+}
+
+.top11 img {
+    margin-right: 80px;
+    border: 3px solid rgb(255, 163, 50);
+}
+
+.toptxt {
+    display: flex;
+}
+
+.top11 h2 {
+    font-size: 14px;
+    margin-right: 120px;
+}
+
+.KMJ {
+    margin-left: 44px;
+}
+
+.KT {
+    margin-left: 30px;
+}
+
+.RA {
+    margin-left: 40px;
+}
+
+.TH {
+    position: absolute;
+    right: -64px;
+}
+
+.MM {
+    margin-left: 520px;
+    margin-bottom: 20px;
+}
+
+.MN {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.top3 {
+    display: flex;
+}
+
+.top3 img {
+    width: 20%;
+    height: 20%;
+}
+
+.top3txt {
+    margin-left: 200px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.KDB {
+    margin-left: 20px;
+}
+
+.FC {
+    margin-left: 0px;
+}
+
+.BS {
+    margin-left: 0px;
+}
+
+.KM {
+    margin-left: 40px;
+}
+
+.KV {
+    margin-left: 65px;
+}
+
+.articlebox {
+    width: 1325px;
+    height: 150px;
+    background-color: white;
+    border: 5px solid black;
+    margin-top: 20px;
+}
+
+.articlebox img {
+    width: 204px;
+    height: 136px;
+    margin-top: 3px;
+    margin-left: 3px;
+    border: 4px solid black;
+}
+
+.cntnt {
+    display: flex;
+}
+
+.artitle {
+    margin-left: 20px;
+}
+
+.articlecontent {
+    display: block;
+}
+
+.artcntnt {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.articlebox:hover {
+    border: 5px solid rgb(71, 66, 66);
+    background-color: rgb(163, 163, 163);
+    cursor: pointer;
+}
+
+.kdbtxt {
+    display: block !important;
+    margin-left: 20px;
+}
+
+.FEC {
+    margin-left: 50px;
+}
+
+.BUS {
+    margin-left: 65px;
 }

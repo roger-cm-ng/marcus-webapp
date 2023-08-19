@@ -8,13 +8,15 @@ export const header = () => {
             <h1 class="logo">Two Football</h1>
             <div class="hamburger"></div>
             <div class="buttons">
-                <a class="rectangle" href="/">Home</a>
-                <a class="rect2 rectangle" href="/article1">Article</a> 
+                <a class="rectangle home" href="/">
+                    <i class="fa fa-home"></i>
+                </a>
+                <a class="rect2 rectangle" href="/articlepage">Articles</a> 
                 <a class="rectangle" href="/contact">Contact</a>
                 <a class="rectangle" href="/shop">Shop</a>
                 <a class="rectangle cartshop" href='cart.html'>
                     <i class="fa fa-shopping-cart"></i>
-                </a>
+                </a>  
                 <div class="dropdown">
                     <button class="dropbtn rectangle cartshop">
                         <i class="fa fa-bars"></i>

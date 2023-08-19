@@ -40,5 +40,39 @@
 }
 
 .cartshop {
-    margin-left: 320px;
+    margin-left: 280px;
+}
+
+.fa-home {
+    margin-left: 5px;
+}
+
+.infobox {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(252, 205, 148);
+    margin-top: 30px;
+    border: 5px solid black;
+}
+
+table, th, td {
+    border: 3px solid black;
+    text-align: center;
+}
+
+.table {
+    margin-top: -50px;
+}
+
+table {
+    width: 510px;
+    margin-bottom: 5px;
+}
+
+.tbltxt {
+    display: flex;
+}
+
+.DB {
+    margin-left: 170px;
 }
